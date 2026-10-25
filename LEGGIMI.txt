@@ -1,0 +1,51 @@
+ONVYRA — NUOVA VERSIONE CHIARA E LUMINOSA
+25 ottobre 2026
+
+COME PUBBLICARE SU GITHUB PAGES
+Estrai lo ZIP e carica index.html, assets, robots.txt, sitemap.xml e .nojekyll
+nella radice del repository ONVYRA. Sostituisci i file omonimi insieme.
+Il sito configurato è https://xelum.github.io/ONVYRA/ .
+Non serve installare dipendenze o compilare il sito.
+
+LA NUOVA VERSIONE
+Accesso diretto senza lampada, medusa o schermate bloccate.
+Palette avorio, blu e verde lime. Testi brevi e leggibili, navigazione
+tradizionale, tre progetti pubblicati e modulo per la demo GRATIS.
+La demo gratuita riguarda solo la pagina iniziale e non impegna
+all’acquisto del sito completo, che viene realizzato su preventivo.
+Le anteprime del sito immaginario nell’apertura sono esempi illustrativi.
+I concept precedenti non sono presentati come clienti.
+
+CONTATTI
+Telefono e WhatsApp: 389 826 7838.
+Email destinataria: alex.morneala@libero.it.
+Il modulo prepara un riepilogo prima di inviare: la prima conferma
+non trasmette dati. Il secondo pulsante Invia la richiesta usa FormSubmit.
+Sono disponibili anche email dal proprio programma, copia e download TXT.
+L’invio diretto funziona da HTTPS; aprendo index.html dal disco usare la posta.
+
+PRIMA DEL LANCIO
+FormSubmit può richiedere l’attivazione della casella: dopo la pubblicazione
+invia una tua prova, controlla email e spam, conferma l’attivazione se richiesta
+e verifica la ricezione con un secondo invio. Non sono stati inviati messaggi
+durante i test. La ricezione reale resta da verificare.
+Completa il nome e cognome del titolare nell’informativa privacy e nella
+configurazione: la sola dicitura Studio personale non lo sostituisce.
+Non è stata inserita una partita IVA, non comunicata.
+
+PRIVACY
+Nessun analytics o script pubblicitario. Il pannello consente di leggere
+l’informativa e accettare, rifiutare o personalizzare la memorizzazione
+facoltativa della preferenza sulle animazioni. La scelta privacy viene
+conservata per sei mesi; è modificabile dal footer. Font e immagini locali.
+
+VERIFICHE
+Home desktop e layout mobile a 375 px verificati nel browser; tre progetti
+presenti, nessuno scorrimento orizzontale rilevato. Menu mobile e riepilogo
+modulo verificati. Sintassi JavaScript, risorse, link interni e ZIP controllati.
+Non effettuati invii email reali o prove su dispositivi fisici.
+
+MODIFICHE FUTURE
+Testi e progetti: index.html. Colori e layout: assets/style.css.
+Invio e interazioni: assets/app.js. Email: assets/config.js.
+Inter è fornito con la licenza SIL Open Font License in assets/fonts.
