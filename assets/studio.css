@@ -7,3 +7,39 @@ main{background:linear-gradient(#141416 0 0) top / 100% var(--hero-height,0px) n
 @media(max-width:760px){.header nav{background:#19171a}.hero{min-height:auto;padding-block:35px 24px;gap:24px}.hero h1{font-size:clamp(46px,12vw,74px);margin:18px 0}.sculpt{aspect-ratio:1.55}.pivot{width:min(78%,340px)}.hero .eyebrow{font-size:9px}.sculpt figcaption,.plate{font-size:8px}.benefit-strip span{line-height:1.4}.section{padding-block:66px}}
 @media(prefers-reduced-motion:reduce){.pivot,.ribbon{transform:none!important}}
 .motion-reduced .pivot,.motion-reduced .ribbon{transform:none!important}
+
+/* Phone layout: keep body copy readable and the enquiry within easy reach. */
+@media (max-width:760px){
+  :root{--muted:#514b4d}
+  .container{width:min(calc(100% - 2.5rem),36rem)}
+  .header-inner{height:64px}.header nav{top:100%;max-height:calc(100dvh - 64px);overflow:auto}
+  .header nav a{font-size:1rem;min-height:46px;border-bottom:1px solid #3b3438}
+  .hero.container{width:100%;background:#141416;padding:32px max(1.25rem,calc((100% - 36rem)/2)) 24px;gap:26px}
+  .hero:before{display:none}
+  .hero .eyebrow,.eyebrow,.section-heading .eyebrow,.service-icon,.project-info>span,.privacy-banner .eyebrow{font-size:.75rem;letter-spacing:.075em;line-height:1.45}
+  .hero .eyebrow{color:#f3d9d9;align-items:baseline}
+  .hero h1{font-size:clamp(2.75rem,11vw,4.25rem);line-height:1.04;letter-spacing:-.032em;margin:18px 0}
+  .hero .lead,.section-heading>p,.services p,.project p,.steps p,.method-intro p:last-child,.about p:not(.eyebrow),.faq-list details p,.contact p:not(.eyebrow),dialog h2+p,.privacy-dialog p{font-size:1rem;line-height:1.6}
+  .hero .lead{color:#e4dcdd}.hero-actions{display:grid;grid-template-columns:minmax(0,1fr);gap:3px;margin-top:22px}
+  .hero .button,.contact .button,.method-action .button,.result-actions .button,.brief-dialog .button{width:100%;min-height:50px;font-size:1rem;padding:13px 17px;gap:12px}
+  .hero .text-link{min-height:44px;font-size:.9375rem;justify-self:center}.hero .offer-note{font-size:.8125rem;line-height:1.5;color:#e3d5d5;margin-top:5px}
+  .sculpt{height:clamp(130px,33vw,190px);aspect-ratio:auto;border:0;border-radius:18px;background:radial-gradient(ellipse at 54% 50%,#43232c,#20191c 55%,#191719);overflow:hidden}
+  .sculpt figcaption,.sculpt .plate{display:none}.sculpt .pivot{height:100%;width:auto;aspect-ratio:1150/880}.ribbon{height:100%;object-fit:contain}
+  .benefit-strip>.container{gap:12px;padding-block:18px}.benefit-strip span{align-items:baseline;font-size:.8125rem;gap:6px;line-height:1.45}
+  .section{padding-block:50px}.section-heading{margin-bottom:24px}.section-heading>p{margin-top:14px}
+  .services{gap:12px}.services article{padding:20px;border:1px solid #ddd4cf;border-radius:14px;background:#fffcf8}
+  .services h3{margin:10px 0}.services .text-link,.about .text-link{min-height:44px;font-size:.9375rem;margin-top:8px;color:#a51830}
+  .projects{gap:24px}.project{background:#282327;border:1px solid #493e43;border-radius:16px;overflow:hidden}
+  .project-image{border-radius:0}.project-info{padding:18px;border:0}.project-info>span{color:#f0c9cd}.project p,.portfolio-section .section-heading>p{color:#eadfe2}
+  .project b{font-size:.9375rem;color:#ffacb5}.project-open{width:40px;height:40px}.section-footnote,.method-action small,.contact small,.footer p{font-size:.8125rem;line-height:1.5}
+  .steps li{padding-left:46px}.steps li>span{width:32px;height:32px}.method-action{align-items:stretch}
+  .about .about-monogram{display:none}.faq-list summary{font-size:1rem;line-height:1.45}.contact{padding:28px 20px;gap:25px}
+  .contact-links a,.contact-links a[href^=mailto],.contact-links .whatsapp-link{font-size:1rem}.contact-links>span{font-size:.875rem}
+  .footer-links{gap:0 16px}.footer-links button,.footer-links>span{font-size:.8125rem}.footer-links button{min-height:44px;text-decoration:underline;text-underline-offset:3px}
+  dialog{max-height:calc(100dvh - 20px);padding:20px 16px}.dialog-bar{font-size:.75rem;margin-bottom:16px}.dialog-bar button,.privacy-dismiss{min-width:44px;min-height:44px}
+  .brief-dialog label,.brief-dialog legend{font-size:1rem}.brief-dialog label>span,.choice label>span,.form-note,.back-button,#brief-status,#brief-output{font-size:.875rem}.choice label>span{min-height:44px;display:grid;align-items:center}
+  .privacy-banner{bottom:max(8px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);width:min(calc(100% - 16px),35rem);padding:17px 16px 12px;max-height:65svh}
+  .privacy-banner h2{font-size:1.2rem;line-height:1.3;margin:4px 38px 3px 0}.privacy-banner .eyebrow{display:none}.privacy-banner p,#privacy-custom{font-size:.875rem;line-height:1.45}.privacy-banner p:empty{display:none}
+  .privacy-actions{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:4px}.privacy-actions button,.privacy-info{font-size:.8125rem;min-height:44px}.privacy-actions button{padding:8px}.privacy-actions #privacy-personalize,.privacy-actions #privacy-save{grid-column:1/-1}
+  .privacy-dismiss{top:6px;right:6px}.privacy-info{text-underline-offset:3px}
+}
