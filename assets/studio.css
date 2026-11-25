@@ -43,3 +43,13 @@ main{background:linear-gradient(#141416 0 0) top / 100% var(--hero-height,0px) n
   .privacy-actions{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:4px}.privacy-actions button,.privacy-info{font-size:.8125rem;min-height:44px}.privacy-actions button{padding:8px}.privacy-actions #privacy-personalize,.privacy-actions #privacy-save{grid-column:1/-1}
   .privacy-dismiss{top:6px;right:6px}.privacy-info{text-underline-offset:3px}
 }
+
+@media (max-width:760px){
+  .header .brand{font-size:19px;gap:6px;min-height:44px;letter-spacing:-.04em}
+  .header .brand svg{width:19px;height:19px}
+  .header .brand-dot{display:none}
+  .hero .sculpt,.contact .contact-flower,.benefit-strip b{display:none}
+  .benefit-strip{background:var(--paper);border-color:var(--line)}
+  .benefit-strip>.container{gap:12px 20px}
+  .benefit-strip span{display:block;font-size:.875rem}
+}
